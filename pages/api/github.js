@@ -1,5 +1,5 @@
 export default async (req, res) => {
-    const url = "https://api.github.com/users/bjcarlson42/repos"
+    const url = "https://api.github.com/users/fu4303/repos"
     const response = await fetch(url)
     const json = await response.json()
     const projectsList = []
